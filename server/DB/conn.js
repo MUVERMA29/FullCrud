@@ -1,7 +1,7 @@
 
 const mongoose = require("mongoose");
 
-const DB="mongodb+srv://MuskanV:MuskanV@cluster0.d1ufkut.mongodb.net/crudopreation?retryWrites=true&w=majority";
+const DB="mongodb+srv://MuskanV:<password>@cluster0.d1ufkut.mongodb.net/<DB_name>?retryWrites=true&w=majority";
 
 mongoose.connect(DB,{
     // userCreateIndex:true,
